@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319e5ac43a1a77f49b739e8d5ddb4731, type: 3}
+  m_Name: 071D4AC7-66E1-4A5B-821E-6B8B705D02BD
+  m_EditorClassIdentifier: 
+  objectName: atmosphere_church
+  id: 419042957
+  guid: 071D4AC7-66E1-4A5B-821E-6B8B705D02BD

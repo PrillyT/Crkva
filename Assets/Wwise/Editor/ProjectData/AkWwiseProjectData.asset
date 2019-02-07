@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41951dd6810638541b6a9c8c3bcce792, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 23869936183ea7448f42ddd59bfa67d5
+    m_lastTime: -8586523711153793398
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 1b0f58f76a6b39489ef9a875dfc739ff
+    m_lastTime: -8586522939559221592
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: c81f031b2e45c944b02ddb79ef9df801
+    m_lastTime: -8586522933236043715
+    List:
+    - name: Atmospheres
+      guid: 3dc8719c4b5e3e46b51b28bc44654e1b
+      id: 326121240
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Atmospheres
+        ObjectType: 7
+      Path: Default Work Unit\Atmospheres
+    - name: Music
+      guid: e88244ba002336488a71b6d767027d08
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: Sound_Effects
+      guid: b3da89b0a085504683c6714f2755fc0d
+      id: 1761240301
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound_Effects
+        ObjectType: 7
+      Path: Default Work Unit\Sound_Effects
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: afa1e07326a6a244a85cea43718a4112
+    m_lastTime: -8586522933236193657
+    List:
+    - name: atmosphere_church
+      guid: c74a1d07e1665b4a821e6b8b705d02bd
+      id: 419042957
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Atmospheres
+        ObjectType: 4
+      - ElementName: atmosphere_church
+        ObjectType: 3
+      Path: Default Work Unit\Atmospheres\atmosphere_church
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: player_footstep
+      guid: 054eeb2f7699994d8d467ac276125ac3
+      id: 2453392179
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: player_footstep
+        ObjectType: 3
+      Path: Default Work Unit\Player\player_footstep
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: player_jump
+      guid: eb2739ece1f5b44f9623c4ad10af1360
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: player_jump
+        ObjectType: 3
+      Path: Default Work Unit\Player\player_jump
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: player_land
+      guid: b2953306f53f1042baae321d1477ce03
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 4
+      - ElementName: player_land
+        ObjectType: 3
+      Path: Default Work Unit\Player\player_land
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 96323ea54d969f48b8cfdb8247d3bf7d
+    m_lastTime: -8586523711153443453
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 7450d76d1dc0464e87f91b543f1ad12e
+    m_lastTime: -8586523711150643837
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f2077bd5f9b65e45af9d62125be29b4e
+    m_lastTime: -8586522942604298914
+    List:
+    - name: player_footsteps
+      guid: 7192cb9febfd484b8e4e31963bbabac6
+      id: 1730208058
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: player_footsteps
+        ObjectType: 11
+      Path: Default Work Unit\player_footsteps
+      values:
+      - name: grass
+        guid: e42c719167971c429c3a1a0d01afd8ce
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: grass
+          ObjectType: 10
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 713669631972a34b92f47a1d96064f8c
+    m_lastTime: -8586523711153583444
+    List: []
+  ExpandedItems:
+  - /Crkva_WwiseProject
+  - /Crkva_WwiseProject/Events
+  - /Crkva_WwiseProject/Events/Default Work Unit
+  - /Crkva_WwiseProject/Events/Default Work Unit/Atmospheres
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

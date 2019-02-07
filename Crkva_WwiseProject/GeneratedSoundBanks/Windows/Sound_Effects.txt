@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1305133589	player_jump			\Default Work Unit\Player\player_jump	
+	2453392179	player_footstep			\Default Work Unit\Player\player_footstep	
+	3629196698	player_land			\Default Work Unit\Player\player_land	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1730208058	player_footsteps			\Default Work Unit\player_footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	4248645337	grass	player_footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	130611969	grass-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-004		60064
+	323947247	grass-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-007		60064
+	438759108	grass-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-009		60064
+	444793411	grass-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-008		60064
+	450797911	grass-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-003		60064
+	546497613	grass-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-005		60064
+	737408977	grass-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-001		60064
+	851105496	grass-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-006		60064
+	924477230	grass-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-002		60064
+	1005072342	grass-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\Test\grass-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Test\grass-010		60064
+

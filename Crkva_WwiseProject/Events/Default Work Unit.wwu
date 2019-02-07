@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{A0866FD8-B191-4D1F-91AA-57C39A6EB3F0}" ShortID="154937574">
+					<ChildrenList>
+						<Event Name="player_footstep" ID="{2FEB4E05-9976-4D99-8D46-7AC276125AC3}">
+							<ChildrenList>
+								<Action Name="" ID="{392DCAA1-6BE3-4697-BEF6-4C2F08676D21}" ShortID="9139411">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{B023E86B-1195-4F61-ACC9-810B4F6A8DDA}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_jump" ID="{EC3927EB-F5E1-4FB4-9623-C4AD10AF1360}">
+							<ChildrenList>
+								<Action Name="" ID="{9318371D-9A86-4035-93C2-3229E6BFDF93}" ShortID="596844857">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{B023E86B-1195-4F61-ACC9-810B4F6A8DDA}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{68364C08-9918-4371-BB15-7E631F7AB5DC}" ShortID="249685993">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.05">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1872BE81-B4D3-4B6F-AC66-4B5455401787}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{B023E86B-1195-4F61-ACC9-810B4F6A8DDA}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_land" ID="{063395B2-3FF5-4210-BAAE-321D1477CE03}">
+							<ChildrenList>
+								<Action Name="" ID="{6A653AD2-B608-43D2-84B0-DD3098449B6C}" ShortID="698958981">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Test" ID="{7728107C-280D-4C96-BEAA-903400762DF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Atmospheres" ID="{4D6659AC-D5E9-42C8-9614-A0B5B544800E}" ShortID="110770784">
+					<ChildrenList>
+						<Event Name="atmosphere_church" ID="{071D4AC7-66E1-4A5B-821E-6B8B705D02BD}">
+							<ChildrenList>
+								<Action Name="" ID="{C0E4DDCB-1940-45E8-8219-487B779BF847}" ShortID="643321040">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="modulated_wind_3" ID="{8E893673-50C7-436A-A6D0-60FE43BC9859}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

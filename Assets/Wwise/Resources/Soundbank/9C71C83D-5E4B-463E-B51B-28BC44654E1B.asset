@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6cca9674af27194097607a8bb6ef0ff, type: 3}
+  m_Name: 9C71C83D-5E4B-463E-B51B-28BC44654E1B
+  m_EditorClassIdentifier: 
+  objectName: Atmospheres
+  id: 326121240
+  guid: 9C71C83D-5E4B-463E-B51B-28BC44654E1B
