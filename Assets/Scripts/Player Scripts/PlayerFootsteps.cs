@@ -16,21 +16,16 @@ public class PlayerFootsteps : MonoBehaviour
 
     public float runStepDistance = 0.25f;
 
-    //
     private AudioSource footstepSound;
-
-    //[SerializeField]
-    //private AudioClip[] footstepClip;
 
     private CharacterController characterController;
 
-    //[HideInInspector]
-    //public float volumeMin, volumeMax;
-
-    private float accumulatedDistance;
+    public float accumulatedDistance;
     
     [HideInInspector]
     public float stepDistance;
+
+    Animator playerAnimator;
 
 
     void Awake()
@@ -39,23 +34,39 @@ public class PlayerFootsteps : MonoBehaviour
 
         characterController = GetComponentInParent<CharacterController>();
 
-        // added from other scrip
-
         playerFootsteps = GetComponent<PlayerFootsteps>();
 
-        //
     }
 
     void Start()
     {
-        //playerFootsteps.volumeMin = volumeMin;
-        //playerFootsteps.volumeMax = volumeMax;
+
         playerFootsteps.stepDistance = runStepDistance;
+
+        playerAnimator = gameObject.GetComponent<Animator>();
+      
     }
 
     void Update()
     {
+
         CheckToPlayFootstepSound();
+
+        if (!characterController.isGrounded)
+        {
+            return;
+        }
+        
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W))
+        {
+            playerAnimator.SetBool("playerRunning", true);
+            playerAnimator.SetBool("playerLand", false);
+        }
+
+        else
+        {
+            playerAnimator.SetBool("playerRunning", false);
+        }
     }
 
     void CheckToPlayFootstepSound()
@@ -67,17 +78,15 @@ public class PlayerFootsteps : MonoBehaviour
 
         if (characterController.velocity.sqrMagnitude > 0)
         {
+            
             accumulatedDistance += Time.deltaTime;
             if (accumulatedDistance > stepDistance)
             {
 
                 AkSoundEngine.PostEvent("player_footstep", transform.gameObject);
 
-                //footstepSound.volume = Random.Range(volumeMin, volumeMax);
-                //footstepSound.clip = footstepClip[Random.Range(0, footstepClip.Length)];
-                //footstepSound.Play();
-
                 accumulatedDistance = 0f;
+
             }
         }
 

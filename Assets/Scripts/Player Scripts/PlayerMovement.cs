@@ -16,9 +16,13 @@ public class PlayerMovement : MonoBehaviour
 
     private bool playerLand;
 
+    Animator land;
+
+
     void Awake()
     {
         characterController = GetComponent<CharacterController>();
+        land = gameObject.GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -26,6 +30,9 @@ public class PlayerMovement : MonoBehaviour
         MoveThePlayer();
 
         PlayerLand();
+
+
+
 
     }
 
@@ -59,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
             verticalVelocity = jumpForce;
 
             playerLand = true;
+            land.SetBool("playerLand", false);
 
             AkSoundEngine.PostEvent("player_jump", transform.gameObject);
         }
@@ -67,11 +75,11 @@ public class PlayerMovement : MonoBehaviour
     void PlayerLand()
     {
         if (characterController.isGrounded && playerLand == true)
-        //  (characterController.isGrounded && verticalVelocity != jumpForce && jumpOn == true)
         {
             AkSoundEngine.PostEvent("player_jump", transform.gameObject);
-
             playerLand = false;
+
+            land.SetBool("playerLand", true);
         }
     }
 }
