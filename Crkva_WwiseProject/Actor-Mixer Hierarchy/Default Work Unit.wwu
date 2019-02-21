@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}" PersistMode="Standalone">
 			<ChildrenList>
 				<ActorMixer Name="Player" ID="{A88D9A99-6383-48D7-B919-2CD94347D099}" ShortID="314295162">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -29,10 +32,13 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Test" ID="{7728107C-280D-4C96-BEAA-903400762DF1}" ShortID="308372779">
+								<RandomSequenceContainer Name="Rock" ID="{7728107C-280D-4C96-BEAA-903400762DF1}" ShortID="308372779">
 									<PropertyList>
 										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-1000</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{A47B507B-9877-441F-8111-2BCF98F67390}">
@@ -48,7 +54,7 @@
 										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-15</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -61,7 +67,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="grass-001" ID="{0E42CA15-A024-47C1-8961-B179655A2FBB}" ShortID="829370761">
+										<Sound Name="footstep_stone-001" ID="{938E5F6B-7A0C-438B-A76B-6B01893EF88E}" ShortID="257172290">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -71,16 +77,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-001" ID="{80997D25-DB0D-4443-8701-B7E1A0B1773D}" ShortID="737408977">
+												<AudioFileSource Name="footstep_stone-001" ID="{A01FE880-08FA-4196-9447-1C1FE6F287B5}" ShortID="483517176">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.19622475856014"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.294995610184372"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-001.wav</AudioFile>
+													<AudioFile>footstep_stone-001.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-001" ID="{80997D25-DB0D-4443-8701-B7E1A0B1773D}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-001" ID="{A01FE880-08FA-4196-9447-1C1FE6F287B5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-002" ID="{A8F93B8D-B906-4DB8-A9A7-6029D4159FE6}" ShortID="52939641">
+										<Sound Name="footstep_stone-002" ID="{1EA0E264-A35E-4C66-B6EE-F2A8A0F27464}" ShortID="505127935">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -90,16 +101,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-002" ID="{63F7C057-4D72-4182-B746-1BA0EE52037F}" ShortID="924477230">
+												<AudioFileSource Name="footstep_stone-002" ID="{E4C1FEE0-6A03-431F-B919-B329DCA33042}" ShortID="105258867">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.210711150131694"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.301580333625988"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-002.wav</AudioFile>
+													<AudioFile>footstep_stone-002.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-002" ID="{63F7C057-4D72-4182-B746-1BA0EE52037F}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-002" ID="{E4C1FEE0-6A03-431F-B919-B329DCA33042}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-003" ID="{BB4FFF54-4C86-45E3-A18E-C49282997629}" ShortID="1034128702">
+										<Sound Name="footstep_stone-003" ID="{6324D5F7-C54E-4224-8508-5D6B07AF1748}" ShortID="802522065">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -109,16 +125,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-003" ID="{2C13D16C-EBC8-4961-9542-F92DE37C107A}" ShortID="450797911">
+												<AudioFileSource Name="footstep_stone-003" ID="{BAED90A5-FA52-4E67-972B-4B8AC7CFCE76}" ShortID="678091954">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.194907813871817"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.301580333625988"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-003.wav</AudioFile>
+													<AudioFile>footstep_stone-003.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-003" ID="{2C13D16C-EBC8-4961-9542-F92DE37C107A}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-003" ID="{BAED90A5-FA52-4E67-972B-4B8AC7CFCE76}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-004" ID="{9E944ED6-2637-4890-A937-E8F897F59401}" ShortID="825980290">
+										<Sound Name="footstep_stone-004" ID="{813B85A5-4318-4AE1-A631-2B08DCE7A760}" ShortID="906475099">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -128,16 +149,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-004" ID="{A6D76FD6-ABDB-44F3-B767-17374E265047}" ShortID="130611969">
+												<AudioFileSource Name="footstep_stone-004" ID="{3B19073D-062D-484A-AC1E-FE8008E3CB4E}" ShortID="634795210">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.194907813871817"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.308165057067603"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-004.wav</AudioFile>
+													<AudioFile>footstep_stone-004.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-004" ID="{A6D76FD6-ABDB-44F3-B767-17374E265047}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-004" ID="{3B19073D-062D-484A-AC1E-FE8008E3CB4E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-005" ID="{44E5998F-7EAD-4BB2-94A5-1404D2BCA981}" ShortID="369113562">
+										<Sound Name="footstep_stone-005" ID="{22E12FFC-6550-43D5-BE12-44D624FD50AF}" ShortID="1069789808">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -147,16 +173,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-005" ID="{D6CC8E8C-FB2F-43AD-B57C-6D2C37911ED4}" ShortID="546497613">
+												<AudioFileSource Name="footstep_stone-005" ID="{1D439C9F-B2A9-4A1C-B2C2-1CEBF8DE0A9D}" ShortID="624163012">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.19622475856014"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.300263388937665"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-005.wav</AudioFile>
+													<AudioFile>footstep_stone-005.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-005" ID="{D6CC8E8C-FB2F-43AD-B57C-6D2C37911ED4}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-005" ID="{1D439C9F-B2A9-4A1C-B2C2-1CEBF8DE0A9D}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-006" ID="{A75BF0AD-5FA5-4616-A296-A8BC111FE2FA}" ShortID="1032356741">
+										<Sound Name="footstep_stone-006" ID="{C114C44B-B09B-4110-910D-220A34289E49}" ShortID="1059710358">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -166,16 +197,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-006" ID="{75C82495-FFE7-4B2B-B08E-A2C8D18F6AA3}" ShortID="851105496">
+												<AudioFileSource Name="footstep_stone-006" ID="{A5DC8260-0B1D-4FA3-8FC9-5121C48E40C5}" ShortID="566622391">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.205443371378402"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.301580333625988"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-006.wav</AudioFile>
+													<AudioFile>footstep_stone-006.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-006" ID="{75C82495-FFE7-4B2B-B08E-A2C8D18F6AA3}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-006" ID="{A5DC8260-0B1D-4FA3-8FC9-5121C48E40C5}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-007" ID="{4E62D488-588C-4A03-80AD-14352C7F8647}" ShortID="659778278">
+										<Sound Name="footstep_stone-007" ID="{AD8EB540-1807-41CA-9E3D-5EF699754E71}" ShortID="697377951">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -185,16 +221,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-007" ID="{64D61925-1369-4804-981F-5B2BC1C69A75}" ShortID="323947247">
+												<AudioFileSource Name="footstep_stone-007" ID="{2D77FDBB-32DE-4BB1-848C-084221B050B3}" ShortID="620516722">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.201492537313433"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.298946444249341"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-007.wav</AudioFile>
+													<AudioFile>footstep_stone-007.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-007" ID="{64D61925-1369-4804-981F-5B2BC1C69A75}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-007" ID="{2D77FDBB-32DE-4BB1-848C-084221B050B3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-008" ID="{F7288DE3-81C8-4F3D-88D6-461BA0FF7ADC}" ShortID="205984829">
+										<Sound Name="footstep_stone-008" ID="{2243D8A9-4B09-4CBB-B3FC-BAA675AA470F}" ShortID="688438157">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -204,16 +245,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-008" ID="{4CDEA945-1D1E-429D-B65E-B6BE1B730C4E}" ShortID="444793411">
+												<AudioFileSource Name="footstep_stone-008" ID="{8085EAE6-F98B-4AB0-8F4E-60A32324E034}" ShortID="364297679">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.190956979806848"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.304214223002634"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-008.wav</AudioFile>
+													<AudioFile>footstep_stone-008.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-008" ID="{4CDEA945-1D1E-429D-B65E-B6BE1B730C4E}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-008" ID="{8085EAE6-F98B-4AB0-8F4E-60A32324E034}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-009" ID="{35C6A0C4-FC35-48BF-947D-7DCC128287F9}" ShortID="834444073">
+										<Sound Name="footstep_stone-009" ID="{4F4EDEF4-C3EE-429F-80DF-8131CB32157D}" ShortID="38871317">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -223,16 +269,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-009" ID="{23CA22CE-F184-46AC-A2D2-D47862963F68}" ShortID="438759108">
+												<AudioFileSource Name="footstep_stone-009" ID="{D341EF11-54BE-4986-8B99-4B5A45A86A20}" ShortID="203703567">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.188323090430202"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.297629499561018"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-009.wav</AudioFile>
+													<AudioFile>footstep_stone-009.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-009" ID="{23CA22CE-F184-46AC-A2D2-D47862963F68}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-009" ID="{D341EF11-54BE-4986-8B99-4B5A45A86A20}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="grass-010" ID="{669AFB83-41CE-4227-93E0-9441B26D1EB8}" ShortID="524389471">
+										<Sound Name="footstep_stone-010" ID="{7D32D476-6E2A-4C34-9989-1BF8487C5C40}" ShortID="17671037">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
@@ -242,13 +293,18 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="grass-010" ID="{7D6BBC4E-8538-4B53-90AF-6A9C89B302A6}" ShortID="1005072342">
+												<AudioFileSource Name="footstep_stone-010" ID="{5BF13166-5D2A-4313-8700-6CB13E4C5247}" ShortID="366976564">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.185689201053556"/>
+														<Property Name="FadeOutShape" Type="int16" Value="2"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.298946444249341"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Test\grass-010.wav</AudioFile>
+													<AudioFile>footstep_stone-010.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="grass-010" ID="{7D6BBC4E-8538-4B53-90AF-6A9C89B302A6}" Platform="Linked"/>
+												<ActiveSource Name="footstep_stone-010" ID="{5BF13166-5D2A-4313-8700-6CB13E4C5247}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -257,14 +313,14 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="Test" ID="{7728107C-280D-4C96-BEAA-903400762DF1}"/>
+										<ItemRef Name="Rock" ID="{7728107C-280D-4C96-BEAA-903400762DF1}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="grass" ID="{91712CE4-9767-421C-9C3A-1A0D01AFD8CE}"/>
 										<ItemList>
-											<ItemRef Name="Test" ID="{7728107C-280D-4C96-BEAA-903400762DF1}"/>
+											<ItemRef Name="Rock" ID="{7728107C-280D-4C96-BEAA-903400762DF1}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
@@ -292,7 +348,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="modulated_wind_3" ID="{8E893673-50C7-436A-A6D0-60FE43BC9859}" ShortID="331634940">
+								<Sound Name="modulated_wind_3" ID="{FF9F1290-5943-49C7-B1F9-B06F77E2D73E}" ShortID="1029935398">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Pitch" Type="int32">
@@ -310,13 +366,51 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="modulated_wind_3" ID="{9A555A0C-B1B7-4DB3-92BC-BE25C53AF0AD}" ShortID="613733088">
+										<AudioFileSource Name="modulated_wind_3" ID="{A6A80DA6-DA1E-4E85-9619-A35F96A0D403}" ShortID="509914634">
 											<Language>SFX</Language>
 											<AudioFile>modulated_wind_3.wav</AudioFile>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="modulated_wind_3" ID="{9A555A0C-B1B7-4DB3-92BC-BE25C53AF0AD}" Platform="Linked"/>
+										<ActiveSource Name="modulated_wind_3" ID="{A6A80DA6-DA1E-4E85-9619-A35F96A0D403}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="wind_interior_1" ID="{B6939810-7503-4DBD-AE5E-14AF9A1B14E6}" ShortID="276422602">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-900</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8621286A-6E21-4A97-822D-950E625E88AA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F7580F1B-6B6A-4839-9EF9-A875DFC739FF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="wind_interior_1" ID="{FE80A1C0-D383-48B4-B1C4-A580841D61E9}" ShortID="230570293">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="50"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.420983318700615"/>
+												<Property Name="LoopEnd" Type="Real64" Value="68.0188762071993"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>wind_interior_1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="wind_interior_1" ID="{FE80A1C0-D383-48B4-B1C4-A580841D61E9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

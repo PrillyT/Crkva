@@ -22,8 +22,19 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 1b0f58f76a6b39489ef9a875dfc739ff
-    m_lastTime: -8586522939559221592
-    List: []
+    m_lastTime: -8586508483801876517
+    List:
+    - name: Crurch_Reverb
+      guid: 7daab2c5466f2e4f868db4492793903c
+      id: 1340793257
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Crurch_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Crurch_Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -61,7 +72,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: afa1e07326a6a244a85cea43718a4112
-    m_lastTime: -8586522933236193657
+    m_lastTime: -8586508502450368319
     List:
     - name: atmosphere_church
       guid: c74a1d07e1665b4a821e6b8b705d02bd
@@ -161,8 +172,8 @@ MonoBehaviour:
     List: []
   ExpandedItems:
   - /Crkva_WwiseProject
-  - /Crkva_WwiseProject/Events
-  - /Crkva_WwiseProject/Events/Default Work Unit
-  - /Crkva_WwiseProject/Events/Default Work Unit/Atmospheres
+  - /Crkva_WwiseProject/Auxiliary Busses
+  - /Crkva_WwiseProject/Auxiliary Busses/Default Work Unit
+  - /Crkva_WwiseProject/Auxiliary Busses/Default Work Unit/Master Audio Bus
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

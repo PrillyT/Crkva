@@ -43,7 +43,7 @@ public class PlayerFootsteps : MonoBehaviour
 
         playerFootsteps.stepDistance = runStepDistance;
 
-        playerAnimator = gameObject.GetComponent<Animator>();
+        playerAnimator = gameObject.GetComponentInChildren<Animator>();
       
     }
 
@@ -71,7 +71,7 @@ public class PlayerFootsteps : MonoBehaviour
 
     void CheckToPlayFootstepSound()
     {
-        if(!characterController.isGrounded)
+        if (!characterController.isGrounded)
         {
             return;
         }
@@ -82,8 +82,10 @@ public class PlayerFootsteps : MonoBehaviour
             accumulatedDistance += Time.deltaTime;
             if (accumulatedDistance > stepDistance)
             {
-
-                AkSoundEngine.PostEvent("player_footstep", transform.gameObject);
+                if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.W))
+                {
+                    AkSoundEngine.PostEvent("player_footstep", transform.gameObject);
+                }
 
                 accumulatedDistance = 0f;
 

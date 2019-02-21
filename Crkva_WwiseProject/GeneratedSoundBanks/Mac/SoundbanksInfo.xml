@@ -19,7 +19,11 @@
 				<Event Id="419042957" Name="atmosphere_church" ObjectPath="\Events\Default Work Unit\Atmospheres\atmosphere_church"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="613733088" Language="SFX">
+				<File Id="230570293" Language="SFX">
+					<ShortName>wind_interior_1.wav</ShortName>
+					<Path>SFX\wind_interior_1_8A3FF628.wem</Path>
+				</File>
+				<File Id="509914634" Language="SFX">
 					<ShortName>modulated_wind_3.wav</ShortName>
 					<Path>SFX\modulated_wind_3_8956FC97.wem</Path>
 				</File>
@@ -37,48 +41,48 @@
 			<IncludedEvents>
 				<Event Id="2453392179" Name="player_footstep" ObjectPath="\Events\Default Work Unit\Player\player_footstep"/>
 				<Event Id="1305133589" Name="player_jump" ObjectPath="\Events\Default Work Unit\Player\player_jump"/>
-				<Event Id="3629196698" Name="player_land" ObjectPath="\Events\Default Work Unit\Player\player_land"/>
+				<Event Id="3629196698" Name="player_land" ObjectPath="\Events\Default Work Unit\Player\player_land" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="130611969" Language="SFX">
-					<ShortName>Test\grass-004.wav</ShortName>
-					<Path>SFX\Test\grass-004_56D34C19.wem</Path>
+				<File Id="105258867" Language="SFX">
+					<ShortName>footstep_stone-002.wav</ShortName>
+					<Path>SFX\footstep_stone-002_16A4C842.wem</Path>
 				</File>
-				<File Id="323947247" Language="SFX">
-					<ShortName>Test\grass-007.wav</ShortName>
-					<Path>SFX\Test\grass-007_56D34C19.wem</Path>
+				<File Id="203703567" Language="SFX">
+					<ShortName>footstep_stone-009.wav</ShortName>
+					<Path>SFX\footstep_stone-009_53A9BB41.wem</Path>
 				</File>
-				<File Id="438759108" Language="SFX">
-					<ShortName>Test\grass-009.wav</ShortName>
-					<Path>SFX\Test\grass-009_56D34C19.wem</Path>
+				<File Id="364297679" Language="SFX">
+					<ShortName>footstep_stone-008.wav</ShortName>
+					<Path>SFX\footstep_stone-008_68235342.wem</Path>
 				</File>
-				<File Id="444793411" Language="SFX">
-					<ShortName>Test\grass-008.wav</ShortName>
-					<Path>SFX\Test\grass-008_56D34C19.wem</Path>
+				<File Id="366976564" Language="SFX">
+					<ShortName>footstep_stone-010.wav</ShortName>
+					<Path>SFX\footstep_stone-010_07F50F21.wem</Path>
 				</File>
-				<File Id="450797911" Language="SFX">
-					<ShortName>Test\grass-003.wav</ShortName>
-					<Path>SFX\Test\grass-003_56D34C19.wem</Path>
+				<File Id="483517176" Language="SFX">
+					<ShortName>footstep_stone-001.wav</ShortName>
+					<Path>SFX\footstep_stone-001_48CCCC30.wem</Path>
 				</File>
-				<File Id="546497613" Language="SFX">
-					<ShortName>Test\grass-005.wav</ShortName>
-					<Path>SFX\Test\grass-005_56D34C19.wem</Path>
+				<File Id="566622391" Language="SFX">
+					<ShortName>footstep_stone-006.wav</ShortName>
+					<Path>SFX\footstep_stone-006_48CB806B.wem</Path>
 				</File>
-				<File Id="737408977" Language="SFX">
-					<ShortName>Test\grass-001.wav</ShortName>
-					<Path>SFX\Test\grass-001_56D34C19.wem</Path>
+				<File Id="620516722" Language="SFX">
+					<ShortName>footstep_stone-007.wav</ShortName>
+					<Path>SFX\footstep_stone-007_E179DA94.wem</Path>
 				</File>
-				<File Id="851105496" Language="SFX">
-					<ShortName>Test\grass-006.wav</ShortName>
-					<Path>SFX\Test\grass-006_56D34C19.wem</Path>
+				<File Id="624163012" Language="SFX">
+					<ShortName>footstep_stone-005.wav</ShortName>
+					<Path>SFX\footstep_stone-005_A7CD097A.wem</Path>
 				</File>
-				<File Id="924477230" Language="SFX">
-					<ShortName>Test\grass-002.wav</ShortName>
-					<Path>SFX\Test\grass-002_56D34C19.wem</Path>
+				<File Id="634795210" Language="SFX">
+					<ShortName>footstep_stone-004.wav</ShortName>
+					<Path>SFX\footstep_stone-004_A7AE0F1D.wem</Path>
 				</File>
-				<File Id="1005072342" Language="SFX">
-					<ShortName>Test\grass-010.wav</ShortName>
-					<Path>SFX\Test\grass-010_56D34C19.wem</Path>
+				<File Id="678091954" Language="SFX">
+					<ShortName>footstep_stone-003.wav</ShortName>
+					<Path>SFX\footstep_stone-003_795F270D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

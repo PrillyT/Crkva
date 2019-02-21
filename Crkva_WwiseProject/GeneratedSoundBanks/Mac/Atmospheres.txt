@@ -2,5 +2,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	419042957	atmosphere_church			\Default Work Unit\Atmospheres\atmosphere_church	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	613733088	modulated_wind_3	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\modulated_wind_3_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Church\modulated_wind_3		25536064
+	230570293	wind_interior_1	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\wind_interior_1_8A3FF628.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Church\wind_interior_1		13152128
+	509914634	modulated_wind_3	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\modulated_wind_3_8956FC97.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Church\modulated_wind_3		25536064
 
