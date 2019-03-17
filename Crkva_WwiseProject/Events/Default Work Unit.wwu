@@ -17,6 +17,46 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{CFA442ED-9D30-45D9-8877-5C4A474012B2}" ShortID="313809728">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trinkets" ID="{66F7A658-E09A-4A51-A1E5-025F37C8FAF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ACC5D719-364B-4540-A73A-4E66FD914550}" ShortID="216331332">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mail" ID="{8A353345-D90D-41E1-BC0D-C1B3248F6D33}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{1AA44C10-FA3D-440B-9E92-38858924DF34}" ShortID="281535315">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CAF2FA99-89F7-47E4-96A5-2791E8851297}" ShortID="245855685">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="player_jump" ID="{EC3927EB-F5E1-4FB4-9623-C4AD10AF1360}">
@@ -64,7 +104,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="modulated_wind_3" ID="{FF9F1290-5943-49C7-B1F9-B06F77E2D73E}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="atm_church_1" ID="{B38B1D4A-991E-4790-831B-542C0673427E}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -75,7 +115,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="wind_interior_1" ID="{B6939810-7503-4DBD-AE5E-14AF9A1B14E6}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="wind_interior_1" ID="{2BB1B0EF-4554-4AC5-A2C4-E386EBDA7255}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
