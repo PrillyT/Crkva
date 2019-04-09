@@ -22,7 +22,7 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 1b0f58f76a6b39489ef9a875dfc739ff
-    m_lastTime: -8586487749179347440
+    m_lastTime: -8586467925884596399
     List:
     - name: Crurch_Reverb
       guid: 7daab2c5466f2e4f868db4492793903c
@@ -39,7 +39,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c81f031b2e45c944b02ddb79ef9df801
-    m_lastTime: -8586522933236043715
+    m_lastTime: -8586468044804911990
     List:
     - name: Atmospheres
       guid: 3dc8719c4b5e3e46b51b28bc44654e1b
@@ -72,8 +72,22 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: afa1e07326a6a244a85cea43718a4112
-    m_lastTime: -8586487695683845985
+    m_lastTime: -8586467931430269620
     List:
+    - name: atmosphere_cave
+      guid: 0c577f4e9f350e4186494a352f4a8d70
+      id: 1294221939
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Atmospheres
+        ObjectType: 4
+      - ElementName: atmosphere_cave
+        ObjectType: 3
+      Path: Default Work Unit\Atmospheres\atmosphere_cave
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: atmosphere_church
       guid: c74a1d07e1665b4a821e6b8b705d02bd
       id: 419042957

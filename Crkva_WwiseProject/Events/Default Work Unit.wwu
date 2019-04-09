@@ -17,26 +17,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{CFA442ED-9D30-45D9-8877-5C4A474012B2}" ShortID="313809728">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Trinkets" ID="{66F7A658-E09A-4A51-A1E5-025F37C8FAF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-								<Action Name="" ID="{ACC5D719-364B-4540-A73A-4E66FD914550}" ShortID="216331332">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Mail" ID="{8A353345-D90D-41E1-BC0D-C1B3248F6D33}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
 								<Action Name="" ID="{1AA44C10-FA3D-440B-9E92-38858924DF34}" ShortID="281535315">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
@@ -47,13 +27,63 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{CAF2FA99-89F7-47E4-96A5-2791E8851297}" ShortID="245855685">
+								<Action Name="" ID="{D2A0B5A0-919F-457A-A3A8-B53C36DF9B3C}" ShortID="337729488">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mail B" ID="{5EA8DFFC-CCE1-4F66-A1A5-CF9A6626DAF0}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3C36FA8F-043C-4BB4-BB8C-7CCFE822182D}" ShortID="648788934">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Plate" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="Plate B" ID="{A2D679E5-EA8D-4547-934C-9A4366436681}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F25BA2C7-2060-414C-BEF5-155FE1A80E04}" ShortID="795066363">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate C" ID="{0347EC6A-1FCF-48A9-9C37-F9C61D3537F8}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ACA55CDB-711B-49C4-9A18-DA853BED3DC2}" ShortID="986225416">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate D" ID="{E9D0CF21-0BA1-458C-9A06-FF03B748EFCD}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{39FCDA77-6FC9-432F-80A9-346C22C14671}" ShortID="163941795">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate A" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -61,7 +91,176 @@
 						</Event>
 						<Event Name="player_jump" ID="{EC3927EB-F5E1-4FB4-9623-C4AD10AF1360}">
 							<ChildrenList>
-								<Action Name="" ID="{9318371D-9A86-4035-93C2-3229E6BFDF93}" ShortID="596844857">
+								<Action Name="" ID="{B875DE9E-10C6-458A-984D-4B23856CB00B}" ShortID="13322236">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3C80B123-40AA-42F3-8F91-33E498D38E0B}" ShortID="108292829">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mail A" ID="{8A353345-D90D-41E1-BC0D-C1B3248F6D33}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8FA76923-6E92-4D9A-BBD2-1FD15008DE0E}" ShortID="734134295">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate A" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DE4241DD-C841-42C8-B908-7508CB0A89EE}" ShortID="829780945">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trinkets" ID="{66F7A658-E09A-4A51-A1E5-025F37C8FAF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4FCB3D14-E28E-41F3-8663-2CD93C951EC2}" ShortID="686858503">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{26EE2EA7-B81C-4359-A953-FD1237088B5C}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{65F6004F-7A69-40D4-BE13-139C11A4E77F}" ShortID="682342641">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{72CFEB32-B4D2-402D-86A6-21D8832DE0A6}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mail A" ID="{8A353345-D90D-41E1-BC0D-C1B3248F6D33}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{138638CE-D54C-48D1-89B9-9A7E3545E0DC}" ShortID="1016206373">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9E8D3E77-E9FE-4414-B9F6-359695785CA9}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="0.3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate A" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7D1DE2FA-0F7E-4806-915E-44120557577C}" ShortID="586154716">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ADC9AAF6-A303-47AB-8E77-14AB8820A9DD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trinkets" ID="{66F7A658-E09A-4A51-A1E5-025F37C8FAF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="player_land" ID="{063395B2-3FF5-4210-BAAE-321D1477CE03}">
+							<ChildrenList>
+								<Action Name="" ID="{53741165-33AD-4F27-840A-EB6F77C1B938}" ShortID="615441537">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6E02C8E2-D338-42DA-ADC3-F27D68E96503}" ShortID="315492387">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mail A" ID="{8A353345-D90D-41E1-BC0D-C1B3248F6D33}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7DFA8A16-92F3-4A63-AC22-7CDF885728A1}" ShortID="396266227">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trinkets" ID="{66F7A658-E09A-4A51-A1E5-025F37C8FAF1}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{3CE27CBA-5E2F-4296-871A-5772158B349F}" ShortID="275835291">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Plate A" ID="{E3E57F2F-9267-4D13-A5E9-FE23E07B1690}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E3810EEC-273D-457B-8840-2FA7C00D7AAA}" ShortID="559444490">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
@@ -71,13 +270,18 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{68364C08-9918-4371-BB15-7E631F7AB5DC}" ShortID="249685993">
+								<Action Name="" ID="{BEB572C9-F6D6-460C-A186-A1E577D2E05D}" ShortID="65744295">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="Delay" Type="Real64" Value="0.05">
+										<Property Name="Delay" Type="Real64">
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{1872BE81-B4D3-4B6F-AC66-4B5455401787}"/>
+													<Modifier Name="" ID="{CDA91177-4CCA-4E8F-8A00-4DC746431D09}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="0.2"/>
+														</PropertyList>
+													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
@@ -90,7 +294,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="player_land" ID="{063395B2-3FF5-4210-BAAE-321D1477CE03}"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Atmospheres" ID="{4D6659AC-D5E9-42C8-9614-A0B5B544800E}" ShortID="110770784">
@@ -104,18 +307,21 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="atm_church_1" ID="{B38B1D4A-991E-4790-831B-542C0673427E}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="atm_church_1" ID="{54DA9427-A7F1-499B-B118-9F52293094F4}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{0FFBF77A-7541-45A3-99BD-6682A72174FF}" ShortID="1024305452">
+							</ChildrenList>
+						</Event>
+						<Event Name="atmosphere_cave" ID="{4E7F570C-359F-410E-8649-4A352F4A8D70}">
+							<ChildrenList>
+								<Action Name="" ID="{28C623A5-2F5E-4CC0-ACAD-34E05FC727C3}" ShortID="153920354">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
-										<Property Name="FadeTime" Type="Real64" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="wind_interior_1" ID="{2BB1B0EF-4554-4AC5-A2C4-E386EBDA7255}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="atm_vizantija_pecina_1" ID="{C3A574F2-552E-4BEA-BDBB-5AF2786ACE44}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

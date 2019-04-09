@@ -14,7 +14,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
