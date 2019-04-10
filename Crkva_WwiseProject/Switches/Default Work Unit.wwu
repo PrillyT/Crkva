@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SwitchGroup Name="player_footsteps" ID="{9FCB9271-FDEB-4B48-8E4E-31963BBABAC6}">
 					<ChildrenList>
-						<Switch Name="grass" ID="{91712CE4-9767-421C-9C3A-1A0D01AFD8CE}"/>
+						<Switch Name="stone" ID="{91712CE4-9767-421C-9C3A-1A0D01AFD8CE}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

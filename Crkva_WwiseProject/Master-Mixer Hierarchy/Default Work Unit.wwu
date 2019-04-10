@@ -8,13 +8,25 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{35EF857E-EB21-41F5-84A9-B45C057CEE45}" WorkUnitID="{27B0EA21-D445-468A-8857-432D1A0DC96E}"/>
 						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise Peak Limiter (Custom)" ID="{CDA6BE4E-A1F0-48FC-B151-21D06559EEAF}" ShortID="435089282" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+									<PropertyList>
+										<Property Name="OutputGain" Type="Real32" Value="-0.5"/>
+										<Property Name="Ratio" Type="Real32" Value="50"/>
+										<Property Name="ReleaseTime" Type="Real32" Value="0.001"/>
+										<Property Name="Threshold" Type="Real32" Value="-0.5"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<AuxBus Name="Crurch_Reverb" ID="{C5B2AA7D-6F46-4F2E-868D-B4492793903C}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-25</Value>
+										<Value>-20</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

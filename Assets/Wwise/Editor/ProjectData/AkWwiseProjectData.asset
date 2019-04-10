@@ -22,7 +22,7 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 1b0f58f76a6b39489ef9a875dfc739ff
-    m_lastTime: -8586467925884596399
+    m_lastTime: -8586467148764103315
     List:
     - name: Crurch_Reverb
       guid: 7daab2c5466f2e4f868db4492793903c
@@ -72,7 +72,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: afa1e07326a6a244a85cea43718a4112
-    m_lastTime: -8586467931430269620
+    m_lastTime: -8586467149453018650
     List:
     - name: atmosphere_cave
       guid: 0c577f4e9f350e4186494a352f4a8d70
@@ -160,7 +160,7 @@ MonoBehaviour:
   - PhysicalPath: Switches\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: f2077bd5f9b65e45af9d62125be29b4e
-    m_lastTime: -8586522942604298914
+    m_lastTime: -8586467193679303536
     List:
     - name: player_footsteps
       guid: 7192cb9febfd484b8e4e31963bbabac6
@@ -172,11 +172,11 @@ MonoBehaviour:
         ObjectType: 11
       Path: Default Work Unit\player_footsteps
       values:
-      - name: grass
+      - name: stone
         guid: e42c719167971c429c3a1a0d01afd8ce
-        id: 4248645337
+        id: 1216965916
         PathAndIcons:
-        - ElementName: grass
+        - ElementName: stone
           ObjectType: 10
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu

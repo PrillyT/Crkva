@@ -20,13 +20,13 @@
 				<Event Id="419042957" Name="atmosphere_church" ObjectPath="\Events\Default Work Unit\Atmospheres\atmosphere_church"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="765218146" Language="SFX">
-					<ShortName>atm_vizantija_pecina_1.wav</ShortName>
-					<Path>SFX\atm_vizantija_pecina_1_28D4A26C.wem</Path>
-				</File>
-				<File Id="809894371" Language="SFX">
+				<File Id="962796910" Language="SFX">
 					<ShortName>atm_church_1.wav</ShortName>
-					<Path>SFX\atm_church_1_4E1126F8.wem</Path>
+					<Path>SFX\atm_church_1_2F8700F4.wem</Path>
+				</File>
+				<File Id="988811282" Language="SFX">
+					<ShortName>atm_vizantija_pecina_1.wav</ShortName>
+					<Path>SFX\atm_vizantija_pecina_1_10849E86.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -52,17 +52,17 @@
 					<ShortName>plate_b-002.wav</ShortName>
 					<Path>SFX\plate_b-002_56D34C19.wem</Path>
 				</File>
+				<File Id="46693584" Language="SFX">
+					<ShortName>mail_b-005.wav</ShortName>
+					<Path>SFX\mail_b-005_56D34C19.wem</Path>
+				</File>
+				<File Id="52619859" Language="SFX">
+					<ShortName>mail_b-008.wav</ShortName>
+					<Path>SFX\mail_b-008_56D34C19.wem</Path>
+				</File>
 				<File Id="65576686" Language="SFX">
 					<ShortName>footstep_boot-001.wav</ShortName>
 					<Path>SFX\footstep_boot-001_56D34C19.wem</Path>
-				</File>
-				<File Id="70226835" Language="SFX">
-					<ShortName>plate_c-006.wav</ShortName>
-					<Path>SFX\plate_c-006_56D34C19.wem</Path>
-				</File>
-				<File Id="82549551" Language="SFX">
-					<ShortName>mail-001.wav</ShortName>
-					<Path>SFX\mail-001_56D34C19.wem</Path>
 				</File>
 				<File Id="92557025" Language="SFX">
 					<ShortName>leather-008.wav</ShortName>
@@ -71,6 +71,10 @@
 				<File Id="97708710" Language="SFX">
 					<ShortName>trinket-005.wav</ShortName>
 					<Path>SFX\trinket-005_56D34C19.wem</Path>
+				</File>
+				<File Id="113488067" Language="SFX">
+					<ShortName>mail_b-001.wav</ShortName>
+					<Path>SFX\mail_b-001_56D34C19.wem</Path>
 				</File>
 				<File Id="115622569" Language="SFX">
 					<ShortName>leather-012.wav</ShortName>
@@ -96,10 +100,6 @@
 					<ShortName>leather-006.wav</ShortName>
 					<Path>SFX\leather-006_56D34C19.wem</Path>
 				</File>
-				<File Id="160636311" Language="SFX">
-					<ShortName>mail-010.wav</ShortName>
-					<Path>SFX\mail-010_56D34C19.wem</Path>
-				</File>
 				<File Id="176745406" Language="SFX">
 					<ShortName>plate_b-007.wav</ShortName>
 					<Path>SFX\plate_b-007_56D34C19.wem</Path>
@@ -108,9 +108,9 @@
 					<ShortName>leather-003.wav</ShortName>
 					<Path>SFX\leather-003_56D34C19.wem</Path>
 				</File>
-				<File Id="218252889" Language="SFX">
-					<ShortName>plate_c-009.wav</ShortName>
-					<Path>SFX\plate_c-009_56D34C19.wem</Path>
+				<File Id="196402621" Language="SFX">
+					<ShortName>mail_b-006.wav</ShortName>
+					<Path>SFX\mail_b-006_56D34C19.wem</Path>
 				</File>
 				<File Id="218853812" Language="SFX">
 					<ShortName>plate-008.wav</ShortName>
@@ -128,21 +128,9 @@
 					<ShortName>leather-005.wav</ShortName>
 					<Path>SFX\leather-005_56D34C19.wem</Path>
 				</File>
-				<File Id="291216503" Language="SFX">
-					<ShortName>plate_c-005.wav</ShortName>
-					<Path>SFX\plate_c-005_56D34C19.wem</Path>
-				</File>
-				<File Id="298068774" Language="SFX">
-					<ShortName>mail-003.wav</ShortName>
-					<Path>SFX\mail-003_56D34C19.wem</Path>
-				</File>
 				<File Id="302131784" Language="SFX">
 					<ShortName>footstep_boot-004.wav</ShortName>
 					<Path>SFX\footstep_boot-004_56D34C19.wem</Path>
-				</File>
-				<File Id="332829643" Language="SFX">
-					<ShortName>mail-005.wav</ShortName>
-					<Path>SFX\mail-005_56D34C19.wem</Path>
 				</File>
 				<File Id="340466976" Language="SFX">
 					<ShortName>plate-005.wav</ShortName>
@@ -155,6 +143,10 @@
 				<File Id="358657207" Language="SFX">
 					<ShortName>footstep_boot-007.wav</ShortName>
 					<Path>SFX\footstep_boot-007_56D34C19.wem</Path>
+				</File>
+				<File Id="362477119" Language="SFX">
+					<ShortName>mail_b-009.wav</ShortName>
+					<Path>SFX\mail_b-009_56D34C19.wem</Path>
 				</File>
 				<File Id="418447818" Language="SFX">
 					<ShortName>leather-004.wav</ShortName>
@@ -171,10 +163,6 @@
 				<File Id="464792463" Language="SFX">
 					<ShortName>trinket-008.wav</ShortName>
 					<Path>SFX\trinket-008_56D34C19.wem</Path>
-				</File>
-				<File Id="490845411" Language="SFX">
-					<ShortName>plate_c-001.wav</ShortName>
-					<Path>SFX\plate_c-001_56D34C19.wem</Path>
 				</File>
 				<File Id="509013704" Language="SFX">
 					<ShortName>trinket-007.wav</ShortName>
@@ -200,41 +188,33 @@
 					<ShortName>plate-010.wav</ShortName>
 					<Path>SFX\plate-010_56D34C19.wem</Path>
 				</File>
-				<File Id="621350632" Language="SFX">
-					<ShortName>plate_c-003.wav</ShortName>
-					<Path>SFX\plate_c-003_56D34C19.wem</Path>
+				<File Id="636267846" Language="SFX">
+					<ShortName>mail_b-003.wav</ShortName>
+					<Path>SFX\mail_b-003_56D34C19.wem</Path>
 				</File>
 				<File Id="657925380" Language="SFX">
 					<ShortName>trinket-003.wav</ShortName>
 					<Path>SFX\trinket-003_56D34C19.wem</Path>
 				</File>
+				<File Id="677124892" Language="SFX">
+					<ShortName>mail_b-002.wav</ShortName>
+					<Path>SFX\mail_b-002_56D34C19.wem</Path>
+				</File>
 				<File Id="694509637" Language="SFX">
 					<ShortName>footstep_boot-006.wav</ShortName>
 					<Path>SFX\footstep_boot-006_56D34C19.wem</Path>
-				</File>
-				<File Id="702482272" Language="SFX">
-					<ShortName>mail-009.wav</ShortName>
-					<Path>SFX\mail-009_56D34C19.wem</Path>
-				</File>
-				<File Id="704005231" Language="SFX">
-					<ShortName>mail-004.wav</ShortName>
-					<Path>SFX\mail-004_56D34C19.wem</Path>
 				</File>
 				<File Id="714894622" Language="SFX">
 					<ShortName>plate_b-006.wav</ShortName>
 					<Path>SFX\plate_b-006_56D34C19.wem</Path>
 				</File>
-				<File Id="730349662" Language="SFX">
-					<ShortName>plate_c-004.wav</ShortName>
-					<Path>SFX\plate_c-004_56D34C19.wem</Path>
-				</File>
 				<File Id="731083643" Language="SFX">
 					<ShortName>trinket-002.wav</ShortName>
 					<Path>SFX\trinket-002_56D34C19.wem</Path>
 				</File>
-				<File Id="743666221" Language="SFX">
-					<ShortName>mail-008.wav</ShortName>
-					<Path>SFX\mail-008_56D34C19.wem</Path>
+				<File Id="734471607" Language="SFX">
+					<ShortName>mail_b-010.wav</ShortName>
+					<Path>SFX\mail_b-010_56D34C19.wem</Path>
 				</File>
 				<File Id="752304655" Language="SFX">
 					<ShortName>plate-001.wav</ShortName>
@@ -264,6 +244,10 @@
 					<ShortName>plate-006.wav</ShortName>
 					<Path>SFX\plate-006_56D34C19.wem</Path>
 				</File>
+				<File Id="850645945" Language="SFX">
+					<ShortName>mail_b-007.wav</ShortName>
+					<Path>SFX\mail_b-007_56D34C19.wem</Path>
+				</File>
 				<File Id="867701006" Language="SFX">
 					<ShortName>footstep_boot-005.wav</ShortName>
 					<Path>SFX\footstep_boot-005_56D34C19.wem</Path>
@@ -271,10 +255,6 @@
 				<File Id="868964054" Language="SFX">
 					<ShortName>plate-003.wav</ShortName>
 					<Path>SFX\plate-003_56D34C19.wem</Path>
-				</File>
-				<File Id="886672203" Language="SFX">
-					<ShortName>mail-007.wav</ShortName>
-					<Path>SFX\mail-007_56D34C19.wem</Path>
 				</File>
 				<File Id="901774374" Language="SFX">
 					<ShortName>plate_b-009.wav</ShortName>
@@ -288,9 +268,9 @@
 					<ShortName>footstep_boot-002.wav</ShortName>
 					<Path>SFX\footstep_boot-002_56D34C19.wem</Path>
 				</File>
-				<File Id="940056046" Language="SFX">
-					<ShortName>mail-002.wav</ShortName>
-					<Path>SFX\mail-002_56D34C19.wem</Path>
+				<File Id="926853671" Language="SFX">
+					<ShortName>mail_b-004.wav</ShortName>
+					<Path>SFX\mail_b-004_56D34C19.wem</Path>
 				</File>
 				<File Id="947731895" Language="SFX">
 					<ShortName>leather-009.wav</ShortName>
@@ -308,10 +288,6 @@
 					<ShortName>plate-002.wav</ShortName>
 					<Path>SFX\plate-002_56D34C19.wem</Path>
 				</File>
-				<File Id="1005898041" Language="SFX">
-					<ShortName>plate_c-008.wav</ShortName>
-					<Path>SFX\plate_c-008_56D34C19.wem</Path>
-				</File>
 				<File Id="1007960995" Language="SFX">
 					<ShortName>plate-004.wav</ShortName>
 					<Path>SFX\plate-004_56D34C19.wem</Path>
@@ -319,18 +295,6 @@
 				<File Id="1017059841" Language="SFX">
 					<ShortName>leather-001.wav</ShortName>
 					<Path>SFX\leather-001_56D34C19.wem</Path>
-				</File>
-				<File Id="1034495924" Language="SFX">
-					<ShortName>mail-006.wav</ShortName>
-					<Path>SFX\mail-006_56D34C19.wem</Path>
-				</File>
-				<File Id="1039864549" Language="SFX">
-					<ShortName>plate_c-002.wav</ShortName>
-					<Path>SFX\plate_c-002_56D34C19.wem</Path>
-				</File>
-				<File Id="1062410492" Language="SFX">
-					<ShortName>plate_c-007.wav</ShortName>
-					<Path>SFX\plate_c-007_56D34C19.wem</Path>
 				</File>
 				<File Id="1069734125" Language="SFX">
 					<ShortName>plate_b-003.wav</ShortName>
