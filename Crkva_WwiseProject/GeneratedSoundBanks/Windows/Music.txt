@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1532821720	crkva_theme			\Default Work Unit\Music\crkva_theme	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	973225293	crkva_theme	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\crkva_theme_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\crkva_theme		13659492
+

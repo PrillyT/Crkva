@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID ATMOSPHERE_CAVE = 1294221939U;
         static const AkUniqueID ATMOSPHERE_CHURCH = 419042957U;
+        static const AkUniqueID CRKVA_THEME = 1532821720U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
         static const AkUniqueID PLAYER_LAND = 3629196698U;

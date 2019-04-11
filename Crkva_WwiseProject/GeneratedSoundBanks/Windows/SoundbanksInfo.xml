@@ -90,6 +90,10 @@
 					<ShortName>leather-012.wav</ShortName>
 					<Path>SFX\leather-012_56D34C19.wem</Path>
 				</File>
+				<File Id="117191938" Language="SFX">
+					<ShortName>knight_drop.wav</ShortName>
+					<Path>SFX\knight_drop_56D34C19.wem</Path>
+				</File>
 				<File Id="118846566" Language="SFX">
 					<ShortName>footstep_boot-010.wav</ShortName>
 					<Path>SFX\footstep_boot-010_56D34C19.wem</Path>
@@ -356,6 +360,15 @@
 			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1532821720" Name="crkva_theme" ObjectPath="\Events\Default Work Unit\Music\crkva_theme"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="973225293" Language="SFX">
+					<ShortName>crkva_theme.wav</ShortName>
+					<Path>SFX\crkva_theme_56D34C19.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

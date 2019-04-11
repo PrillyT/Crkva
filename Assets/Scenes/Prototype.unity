@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 44597070}
   - component: {fileID: 44597069}
   - component: {fileID: 44597071}
+  - component: {fileID: 44597072}
   m_Layer: 0
   m_Name: TrapDoorTrigger
   m_TagString: Untagged
@@ -295,6 +296,32 @@ MonoBehaviour:
   data:
     valueGuid: 
     WwiseObjectReference: {fileID: 11400000, guid: 41292b317cfa0e540ab75bd7921809aa,
+      type: 2}
+  m_callbackData: {fileID: 0}
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  valueGuid: 
+--- !u!114 &44597072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44597065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bde9c2eab3a5ec44baefa496144d03e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7f422d6
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    valueGuid: 
+    WwiseObjectReference: {fileID: 11400000, guid: ebcddf2f2ea84054fbe3695269b77abf,
       type: 2}
   m_callbackData: {fileID: 0}
   playingId: 0
@@ -971,6 +998,50 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439594343}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &494745505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494745506}
+  - component: {fileID: 494745507}
+  m_Layer: 0
+  m_Name: Collider 1 B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &494745506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494745505}
+  m_LocalRotation: {x: -0.06627396, y: 0, z: 0, w: 0.99780154}
+  m_LocalPosition: {x: 4.5353317, y: -3.65, z: -3.85}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1064704289}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: -7.6, y: 0, z: 0}
+--- !u!65 &494745507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494745505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 23.872562, y: 5.445372, z: 1.0000001}
+  m_Center: {x: 4.4796486, y: 14.241995, z: 0.0000009965948}
 --- !u!1 &522517645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2951,6 +3022,7 @@ Transform:
   - {fileID: 316994049}
   - {fileID: 1116252878}
   - {fileID: 1558023754}
+  - {fileID: 494745506}
   m_Father: {fileID: 1624645735}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5580,8 +5652,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 31.133436, y: 22.272312, z: 19.867521}
-  m_Center: {x: -1.2643385, y: 15.527027, z: 5.0883274}
+  m_Size: {x: 31.133436, y: 21.009497, z: 19.867521}
+  m_Center: {x: -1.2643385, y: 14.895619, z: 5.0883274}
 --- !u!1 &1996018236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5980,7 +6052,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127555713}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5353317, y: -7.3534317, z: -5.5795326}
+  m_LocalPosition: {x: 4.5353317, y: -7.3534317, z: -5.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1064704289}
@@ -5997,8 +6069,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 23.872562, y: 26.117752, z: 1}
-  m_Center: {x: 4.4796486, y: 7.3534317, z: 0}
+  m_Size: {x: 23.872562, y: 22.892782, z: 1}
+  m_Center: {x: 4.4796486, y: 5.740947, z: 0}
 --- !u!1001 &3957759655196706464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6074,7 +6146,7 @@ PrefabInstance:
     - target: {fileID: 3957759654925685377, guid: ef22f731295064243bc19a9626d5cc97,
         type: 3}
       propertyPath: speed
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3957759654925685377, guid: ef22f731295064243bc19a9626d5cc97,
         type: 3}

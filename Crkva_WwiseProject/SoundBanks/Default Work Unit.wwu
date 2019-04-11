@@ -22,7 +22,9 @@
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Music" ID="{BA4482E8-2300-4836-8A71-B6D767027D08}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="crkva_theme" ID="{96C0A309-78A6-43AE-AB40-0DD3A70BC3FE}" WorkUnitID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

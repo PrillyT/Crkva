@@ -292,6 +292,35 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{283EF58A-2711-45B1-87D1-785A4154ECF2}" ShortID="602637536">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Delay" Type="Real64" Value="0.6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="knight_drop" ID="{30C0BE19-561E-4361-B0DC-81B2B046C5AF}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{9F043E5E-BCD9-4190-A268-30C651CAAF7C}" ShortID="454343364">
+					<ChildrenList>
+						<Event Name="crkva_theme" ID="{96C0A309-78A6-43AE-AB40-0DD3A70BC3FE}">
+							<ChildrenList>
+								<Action Name="" ID="{068EBB97-A15F-4AA5-9F70-17647D4048FB}" ShortID="889056193">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="crkva_theme" ID="{90EA9C3F-9747-40F8-B66C-55BFCD190DAA}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 					</ChildrenList>
