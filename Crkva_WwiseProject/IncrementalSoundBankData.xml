@@ -3,30 +3,30 @@
 	<Platform GUID="{B1ADD020-7C64-42F4-9009-D23A9FAF0431}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Atmospheres" Hash="4261189787" Timestamp="1550758003"/>
-				<File Name="Init" Hash="116937439" Timestamp="1550758508"/>
+				<File Name="Atmospheres" Hash="2181702636" Timestamp="1554969789"/>
+				<File Name="Init" Hash="1928687340" Timestamp="1554969790"/>
 				<File Name="Music" Hash="3168611603" Timestamp="1549237494"/>
-				<File Name="Sound_Effects" Hash="1263532335" Timestamp="1550761821"/>
+				<File Name="Sound_Effects" Hash="1222051886" Timestamp="1554969790"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3929638319" Timestamp="1550761821"/>
+				<File Name="" Hash="3663074086" Timestamp="1554969790"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{A55FF711-E1B8-4CF5-80CC-54FAA8FDB468}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="Atmospheres" Hash="1582073256" Timestamp="1554888906"/>
-				<File Name="Init" Hash="2945159250" Timestamp="1554892010"/>
+				<File Name="Atmospheres" Hash="1262079522" Timestamp="1554987729"/>
+				<File Name="Init" Hash="846585812" Timestamp="1554988921"/>
 				<File Name="Music" Hash="3168611603" Timestamp="1549237199"/>
-				<File Name="Sound_Effects" Hash="4198741294" Timestamp="1554891942"/>
+				<File Name="Sound_Effects" Hash="623372616" Timestamp="1554987468"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2560849216" Timestamp="1554892010"/>
+				<File Name="" Hash="2551696439" Timestamp="1554988921"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

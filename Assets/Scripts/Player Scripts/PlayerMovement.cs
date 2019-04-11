@@ -10,9 +10,10 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 moveDirection;
     private float verticalVelocity;
 
-    public float gravity = 40f;
-    public float speed = 5f;
-    public float jumpForce = 10f;
+    public float gravity;
+    public float speed;
+    public float jumpForce;
+    //public float fallingSpeed;
 
     private bool playerLand;
 
@@ -31,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
         PlayerLand();
 
-
+        Debug.Log(verticalVelocity);
 
 
     }
@@ -52,7 +53,14 @@ public class PlayerMovement : MonoBehaviour
 
     void ApplyGravity()
     {
-        verticalVelocity -= gravity * Time.deltaTime;
+        if(!characterController.isGrounded)
+        {
+            verticalVelocity -= gravity * Time.deltaTime;
+        }
+        else if (verticalVelocity < -1f)
+        {
+            verticalVelocity = 0f;
+        }
 
         PlayerJump();
 
@@ -76,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (characterController.isGrounded && playerLand == true)
         {
-            AkSoundEngine.PostEvent("player_jump", transform.gameObject);
+            AkSoundEngine.PostEvent("player_land", transform.gameObject);
             playerLand = false;
 
             land.SetBool("playerLand", true);

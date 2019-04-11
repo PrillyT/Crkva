@@ -5,6 +5,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1340793257	Crurch_Reverb			\Default Work Unit\Master Audio Bus\Crurch_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	435089282	Wwise Peak Limiter (Custom)	Wwise Peak Limiter			
 	1990128658	Room_Medium	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

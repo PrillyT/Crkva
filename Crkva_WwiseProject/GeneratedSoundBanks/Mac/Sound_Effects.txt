@@ -1,23 +1,78 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1305133589	player_jump			\Default Work Unit\Player\player_jump	
+	1965075432	trapdoor			\Default Work Unit\Sound Effects\trapdoor	
 	2453392179	player_footstep			\Default Work Unit\Player\player_footstep	
-	3629196698	player_land			\Default Work Unit\Player\player_land	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	1730208058	player_footsteps			\Default Work Unit\player_footsteps	
 
 Switch	ID	Name	Switch Group			Notes
-	4248645337	grass	player_footsteps			
+	1216965916	stone	player_footsteps			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	105258867	footstep_stone-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-002_16A4C842.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-002		29016
-	203703567	footstep_stone-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-009_53A9BB41.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-009		28636
-	364297679	footstep_stone-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-008_68235342.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-008		29268
-	366976564	footstep_stone-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-010_07F50F21.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-010		28762
-	483517176	footstep_stone-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-001_48CCCC30.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-001		28384
-	566622391	footstep_stone-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-006_48CB806B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-006		29016
-	620516722	footstep_stone-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-007_E179DA94.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-007		28762
-	624163012	footstep_stone-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-005_A7CD097A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-005		28890
-	634795210	footstep_stone-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-004_A7AE0F1D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-004		29648
-	678091954	footstep_stone-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_stone-003_795F270D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Rock\footstep_stone-003		29016
+	15771543	footstep_boot-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-009		48064
+	18179629	plate_b-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-002		72064
+	46693584	mail_b-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-005		60064
+	52619859	mail_b-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-008		60064
+	64139542	vragoda2	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\vragoda2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\vragoda2		12610348
+	65576686	footstep_boot-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-001		48064
+	92557025	leather-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-008		60064
+	97708710	trinket-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-005		84064
+	113488067	mail_b-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-001		60064
+	115622569	leather-012	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-012_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-012		60064
+	118846566	footstep_boot-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-010		48064
+	132935232	trinket-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-006		84064
+	142763688	plate_b-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-004		72064
+	143506335	plate_b-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-005		72064
+	156767844	leather-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-006		60064
+	176745406	plate_b-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-007		72064
+	188783115	leather-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-003		60064
+	196402621	mail_b-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-006		60064
+	218853812	plate-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-008		60064
+	232350485	leather-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-007		60064
+	237274269	trinket-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-010		84064
+	282882065	leather-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-005		60064
+	302131784	footstep_boot-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-004		48064
+	340466976	plate-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-005		60064
+	346257040	plate_b-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-008		72064
+	358657207	footstep_boot-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-007		48064
+	362477119	mail_b-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-009		60064
+	418447818	leather-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-004		60064
+	423876610	plate-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-007		60064
+	436257053	leather-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-002		60064
+	464792463	trinket-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-008		84064
+	509013704	trinket-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-007		84064
+	519623550	plate-012	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-012_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-012		60064
+	528421526	footstep_boot-008	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-008_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-008		48064
+	539116211	leather-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-010		60064
+	541858951	trinket-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-004		84064
+	595963607	plate-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-010		60064
+	636267846	mail_b-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-003		60064
+	657925380	trinket-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-003		84064
+	677124892	mail_b-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-002		60064
+	694509637	footstep_boot-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-006		48064
+	714894622	plate_b-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-006		72064
+	731083643	trinket-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-002		84064
+	734471607	mail_b-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-010		60064
+	752304655	plate-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-001		60064
+	769795184	trinket-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-009		84064
+	776419377	plate_b-010	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-010_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-010		72064
+	782743822	plate_b-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-001		72064
+	785087195	footstep_boot-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-003		48064
+	800878196	trinket-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\trinket-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Trinkets\trinket-001		84064
+	801542858	plate-006	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-006_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-006		60064
+	850645945	mail_b-007	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-007_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-007		60064
+	867701006	footstep_boot-005	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-005_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-005		48064
+	868964054	plate-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-003		60064
+	901774374	plate_b-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-009		72064
+	914939262	plate-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-009		60064
+	920796250	footstep_boot-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\footstep_boot-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Footsteps\Boot\footstep_boot-002		48064
+	926853671	mail_b-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\mail_b-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Mail B\mail_b-004		60064
+	947731895	leather-009	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-009_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-009		60064
+	963221998	leather-011	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-011_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-011		60064
+	968785199	plate-011	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-011_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-011		60064
+	978680678	plate-002	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-002_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-002		60064
+	1007960995	plate-004	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate-004_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate A\plate-004		60064
+	1017059841	leather-001	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\leather-001_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Leather\leather-001		60064
+	1069734125	plate_b-003	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Mac\SFX\plate_b-003_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Plate B\plate_b-003		72064
 

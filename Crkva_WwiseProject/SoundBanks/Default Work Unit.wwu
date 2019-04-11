@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Sound_Effects" ID="{B089DAB3-85A0-4650-83C6-714F2755FC0D}">
 					<ObjectInclusionList>
+						<ObjectRef Name="player_land" ID="{063395B2-3FF5-4210-BAAE-321D1477CE03}" WorkUnitID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="trapdoor" ID="{0E0831EF-3129-4A63-AEC8-4D4825AED04D}" WorkUnitID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="player_footstep" ID="{2FEB4E05-9976-4D99-8D46-7AC276125AC3}" WorkUnitID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="player_jump" ID="{EC3927EB-F5E1-4FB4-9623-C4AD10AF1360}" WorkUnitID="{73E0A1AF-A626-44A2-A85C-EA43718A4112}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>

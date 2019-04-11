@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	1294221939	atmosphere_cave			\Default Work Unit\Atmospheres\atmosphere_cave	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	962796910	atm_church_1	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\atm_church_1_2F8700F4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Church\atm_church_1		27120128
-	988811282	atm_vizantija_pecina_1	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\atm_vizantija_pecina_1_10849E86.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Cave\atm_vizantija_pecina_1		34176128
+	962796910	atm_church_1	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\atm_church_1_8E68EA46.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Church\atm_church_1		27120128
+	988811282	atm_vizantija_pecina_1	C:\Users\Nole\Documents\Master\Game of History\Crkva\Crkva_WwiseProject\.cache\Windows\SFX\atm_vizantija_pecina_1_2D6747E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Atmospheres\Cave\atm_vizantija_pecina_1		34176128
 

@@ -23,7 +23,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="Leather A" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -67,6 +67,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{A9EF361E-DAA4-46F4-8CCC-A34F094E968A}" ShortID="1061388070">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leather B" ID="{A504EBF5-550A-49FD-8388-24DA4FA184C0}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="player_jump" ID="{EC3927EB-F5E1-4FB4-9623-C4AD10AF1360}">
@@ -77,7 +87,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="Leather A" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -108,7 +118,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="Leather A" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -142,6 +152,17 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{A7415CF3-8EDE-44AF-9210-EDB32707410F}" ShortID="117293000">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="Probability" Type="Real64" Value="40"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{BB51E4DF-9C29-408A-920E-C5C21A4D297A}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="player_land" ID="{063395B2-3FF5-4210-BAAE-321D1477CE03}">
@@ -172,7 +193,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Leather" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="Leather A" ID="{D008CB58-E9ED-43B5-A7D0-0B8F5F903E76}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -229,13 +250,45 @@
 						</Event>
 						<Event Name="atmosphere_cave" ID="{4E7F570C-359F-410E-8649-4A352F4A8D70}">
 							<ChildrenList>
-								<Action Name="" ID="{28C623A5-2F5E-4CC0-ACAD-34E05FC727C3}" ShortID="153920354">
+								<Action Name="" ID="{8BAD2790-8B48-43A1-AA21-F6ABCC829F39}" ShortID="34079949">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="atm_vizantija_pecina_1" ID="{B76D9A20-9BCD-409D-BA52-0A4A468ECCEC}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sound Effects" ID="{A2BCD035-92B6-4F4D-8D39-8676363E05CD}" ShortID="669327243">
+					<ChildrenList>
+						<Event Name="trapdoor" ID="{0E0831EF-3129-4A63-AEC8-4D4825AED04D}">
+							<ChildrenList>
+								<Action Name="" ID="{FA4B21E8-3811-44F4-875F-491B9BA092C4}" ShortID="46274514">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="atm_vizantija_pecina_1" ID="{B76D9A20-9BCD-409D-BA52-0A4A468ECCEC}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+											<ObjectRef Name="trapdoor" ID="{DD5D7F75-7A98-459A-A6E9-31BF662818EC}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D49110C5-6119-432E-B10F-3362E1E52C8B}" ShortID="304980181">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+										<Property Name="Scope" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="atm_church_1" ID="{580A9037-0F63-4D97-9821-E19FBE0C371E}" WorkUnitID="{0C64376E-7E49-45FB-B9DA-3AD9C2183986}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

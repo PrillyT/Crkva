@@ -22,8 +22,19 @@ MonoBehaviour:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 1b0f58f76a6b39489ef9a875dfc739ff
-    m_lastTime: -8586467148764103315
+    m_lastTime: -8586466181616832661
     List:
+    - name: Cave_Reverb
+      guid: adea6f1d39e5d94d82d58d081a8b52bd
+      id: 3177428469
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Cave_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Cave_Reverb
     - name: Crurch_Reverb
       guid: 7daab2c5466f2e4f868db4492793903c
       id: 1340793257
@@ -39,7 +50,7 @@ MonoBehaviour:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: c81f031b2e45c944b02ddb79ef9df801
-    m_lastTime: -8586468044804911990
+    m_lastTime: -8586466196519464964
     List:
     - name: Atmospheres
       guid: 3dc8719c4b5e3e46b51b28bc44654e1b
@@ -72,7 +83,7 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: afa1e07326a6a244a85cea43718a4112
-    m_lastTime: -8586467149453018650
+    m_lastTime: -8586466192459505603
     List:
     - name: atmosphere_cave
       guid: 0c577f4e9f350e4186494a352f4a8d70
@@ -141,6 +152,20 @@ MonoBehaviour:
       - ElementName: player_land
         ObjectType: 3
       Path: Default Work Unit\Player\player_land
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: trapdoor
+      guid: ef31080e2931634aaec84d4825aed04d
+      id: 1965075432
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Sound Effects
+        ObjectType: 4
+      - ElementName: trapdoor
+        ObjectType: 3
+      Path: Default Work Unit\Sound Effects\trapdoor
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

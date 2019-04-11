@@ -17,6 +17,8 @@ namespace AK
         static const AkUniqueID ATMOSPHERE_CHURCH = 419042957U;
         static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
         static const AkUniqueID PLAYER_JUMP = 1305133589U;
+        static const AkUniqueID PLAYER_LAND = 3629196698U;
+        static const AkUniqueID TRAPDOOR = 1965075432U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -48,6 +50,7 @@ namespace AK
 
     namespace AUX_BUSSES
     {
+        static const AkUniqueID CAVE_REVERB = 3177428469U;
         static const AkUniqueID CRURCH_REVERB = 1340793257U;
     } // namespace AUX_BUSSES
 
