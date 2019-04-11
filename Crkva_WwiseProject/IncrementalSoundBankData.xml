@@ -19,14 +19,14 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Atmospheres" Hash="1262079522" Timestamp="1554987729"/>
-				<File Name="Init" Hash="846585812" Timestamp="1554988921"/>
+				<File Name="Init" Hash="946268124" Timestamp="1554989662"/>
 				<File Name="Music" Hash="3168611603" Timestamp="1549237199"/>
 				<File Name="Sound_Effects" Hash="623372616" Timestamp="1554987468"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2551696439" Timestamp="1554988921"/>
+				<File Name="" Hash="2551696439" Timestamp="1554989662"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
